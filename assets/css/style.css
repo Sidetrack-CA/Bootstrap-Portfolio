@@ -1,0 +1,100 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* this sets the background image for the area behind the container  */
+body {
+    background-image: url("../images/paper_background.jpg");
+    width: 100%;
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+}
+#StyledLine {                   /* This is the line underneath the title in the main content box */
+    border-width: 1px;
+    border-color: #666;
+}
+#brand-name {                      /* This is the Rob Ross in the header (Navbar brand) */
+    font-size: 28pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin: -10px;
+    text-decoration: none;
+}
+#nav, a, ul {                       /* This sets up the styling for the menu are and the anchor tags */
+    position: relative;
+    text-decoration: none;
+    color: #666;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt;
+    padding: 0px 20px;
+    flex-direction: inherit;
+}
+#fluid-cntr {
+    width: 1024px;
+}
+#top {
+    border-bottom-color: #4aaaa5;
+    border-bottom-style: solid;
+}
+h2 {
+    font-size: 24pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+#main-container {                           /* This is the styling for the main container where the main content is for all three pages */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1024px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 10px;
+    z-index: 10;
+}
+#contact-info {
+    width: 30%;
+}
+.bio-image {                                /* Setup the image inside the main container */
+    float: left;
+    width: 300px;
+    height:  200px;
+    margin: 0px;
+    padding: 15px;
+}
+.footer {                                   /* Sticky footer styling */
+  padding: 0px 15px;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+  width: auto;
+}
+#portfolio-img {                            /* The rest of these CSS properties style the images and the green banners that are overlayed on the images that say the name */
+    width: 75%;
+}
+.port-container {
+    width: 1024px;
+}
+#picbanner {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 342px;
+}
+.thumbnail {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 80%;
+    left: 12.5%;
+    width: 75%;
+    height: 10%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
